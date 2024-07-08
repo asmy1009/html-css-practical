@@ -1,0 +1,173 @@
+
+p {
+    font-size: 18px;
+}
+
+    /* 横幅設定 */
+    body {
+        font-family: "Noto Sans JP", sans-serif;  
+    }
+
+    /* ヘッダー */
+    header {
+        display: flex;
+        max-width: 960px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header > h1 {
+        border: 1px solid #000000;
+        padding: 0 20px 0 20px;
+    }
+
+
+    /* ナビゲーションのレイアウト */
+    nav{
+        margin-left:auto;
+    }
+   
+    
+#nav-pc {
+    font-size: 34px;
+    padding-top:15px;
+    }
+
+    /* ナビゲーションのリンクの装飾設定 */
+#nav-pc > a {
+    text-decoration: none;
+    text-align: right;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 20px;
+}
+
+/* メインビジュアル */
+#main-visual img {
+    width: 100%;
+}
+
+/* アバウト */
+
+#about {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 34px;
+} 
+
+h2 {
+    text-align: center;
+}
+
+#about-explain {
+    font-size: 18px;
+}
+
+.about-p  {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-p img {
+    margin-right: 100px;
+    border-radius: 50%;
+}
+
+.about-p p {
+    font-size: 22px;
+}
+
+
+
+
+/* ワークス */
+#works {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+#works-photo { 
+    margin: 100px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#works-photo > div {
+    width: 25%;
+    margin: 0 10px 0 10px;
+}
+
+footer {
+   text-align: center;
+   padding-top: 0px;
+}
+
+.works-photo {
+    width: 100%;
+}
+
+#works p {
+    margin-top: -5px;
+}
+
+
+
+
+/* ----------
+スマホ用スタイル
+------------*/
+
+@media screen and (max-width: 767px) {
+
+
+#nav-pc > a {
+    font-size: 22px;
+    margin-right: 10px;
+} 
+
+
+h2 {
+    font-size: 28px;
+}
+
+#main-visual img {
+    margin-top:15px;
+}
+
+.about-p {
+    flex-direction: column;
+}
+
+.about-p img {
+    margin-right: 0;
+}
+    
+.about-p p {
+    text-align: center;
+}
+
+
+#works-photo {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+#works-photo > div {
+    width: 90%;
+}
+
+
+
+
+  }
+  
+
